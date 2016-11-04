@@ -1,2 +1,7 @@
-# componentes-atomicos-como-fazer
-Irei iniciar um data grid do 0 a partir da minha concepção atômica e modular
+# Componentes Atômicos - Como criar
+
+Como eu nunca fiz nada do gênero ainda mais utilizando components, vi uma brecha em um freela que estou fazendo.
+
+Basicamente preciso implementar isso:
+
+![]()
