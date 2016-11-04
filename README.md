@@ -37,7 +37,7 @@ O mais normal seria ter os valores por linha e a partir dela gerar a tabela, mas
 
 **Baseando-se nessas premissas iremos iniciar nosso estudo pela célula, sem conhecer a estrutura dos seus components pais.**
 
-> Você está louco Suissa?
+> **Você está louco Suissa?**
 
 > - Ainda não, apenas estou baseando-me no Atomic Design onde o átomo é a "menor parte indivisível e independente".
 
@@ -53,9 +53,9 @@ Primeira coisa que devemos pensar é na sua estrutura, podemos iniciar com essa 
 
 Aí você deve pensar:
 
-> Ué não é para uma tabela? E se eu quiser ordenar ela?
+> **Ué não é para uma tabela? E se eu quiser ordenar ela?**
 
-**Ótima pergunta!** Por isso precisamos pensar juntos:
+> - **Ótima pergunta!** Por isso precisamos pensar juntos.
 
 Sabemos que a ordenação pode ser tanto pela linha como pela coluna, então como representar isso?
 
@@ -68,6 +68,6 @@ Acredito que com uma propriedade com a sua posição na fila:
 
 > Como é que um component desses vai saber qual é sua posição sendo que ele nao sabe onde está inserido, ele conhece apenas a si mesmo.
 
-**Tudo bem então, deixaremos isso para o seu component pai(linha) lidar.**
+> - **Tudo bem então, deixaremos isso para o seu component pai(linha) lidar.**
 
 Então vamos iniciar com esse escopo e caso seja necessário mudamos futuramente.
