@@ -31,11 +31,11 @@ O mais comum seria montar a tabela com seus cabeçalhos para depois ir para as l
 
 > A verdade é o todo. Que se não enxergamos o todo, podemos atribuir valores exagerados a verdades limitadas, prejudicando a compreensão de uma verdade geral. Essa visão é sempre provisória, nunca alcança uma etapa definitiva e acabada, caso contrário a dialética estaria negando a si própria.
 
-Logo é natural começar do macro para o micro pois assim temos, ou pensamos que temos, a visualização completa do nosso problema. Essa noção fica ainda mais clara quando observamos a seguinte imagem, a qual devemos implementar:
+Logo é natural começar do macro para o micro pois assim temos, ou pensamos que temos, a visualização completa do nosso problema. Essa noção fica ainda mais clara quando observamos a seguinte imagem:
 
 ![Tabela a ser implementada com componentes](https://github.com/suissa/componentes-atomicos-como-fazer/blob/master/imgs/oquefazer.png?raw=true)
 
-Agora em posse do todo que iremos definir suas estruturas internas.
+Agora em posse do todo, iremos definir suas estruturas internas.
 
 > O que é uma tabela?
 > 
@@ -53,13 +53,13 @@ Sabendo disso, podemos inferir que:
 > 
 > Para que uma linha exista ela precisa ser formada por uma ou mais células.
 > 
-> Para que uma célula exista ela não precisa de ninguém.
+> Para que uma célula exista ela precisará apenas da sua própria existência.
 
-Logo, a maior necessidade de existência, para que o todo (tabela) exista, é a existêcia da célula.
+Logo, a única necessidade de existência, para que o todo (tabela) exista, é a existêcia da célula.
 
-Sabendo-se que a célula é a essência da tabela, ou seja, é uma característica essencial para sua existência podemos afirmar que sem a célula não existe tabela.
+Sabendo-se que a célula é a essência da tabela, ou seja, é uma característica essencial para sua existência, podemos afirmar que sem a célula não existe a tabela.
 
-Abrirei um adendo aqui, para incrementar o conceito de Dialética:
+Abrirei um adendo aqui para incrementar o conceito da Dialética:
 
 > O método dialético nos incita a revermos o passado, à luz do que está acontecendo no presente, ele questiona o presente em nome do futuro, o que está sendo em nome do que “ainda não é”. É por isso que o argentino Carlos Astrada define a dialética como “semente de dragões”, a qual alimenta dragões que talvez causem tumulto, mas não uma baderna inconsequente.
 
@@ -77,13 +77,31 @@ Abrirei um adendo aqui, para incrementar o conceito de Dialética:
 
 > \- Ainda não, apenas estou baseando-me no [Atomic Design](http://nomadev.com.br/atomic-design-b%C3%B3sons-e-quarks-extended/) onde o átomo é a "menor parte indivisível e independente".
 
-Minha ideia é que esse *component* possa ser **reusado** em qualquer *view* independentemente de onde será colocado.
+Minha ideia é que esse *component* possa ser **reusado** em qualquer *view* independentemente de onde será utilizado.
 
-Primeira coisa que devemos criar é a sua estrutura, devemos ter cuidado pois essa estrutura deverá genérica o suficiente para que possa tabalhar com diferentes tipos de dados. Correlacionando essa afirmação definimos a primeira propriedade, intrísceca, dessa estrutura: seu tipo.
+A primeira coisa que devemos criar é a estrutura da célula, sendo imprescindível que ela seja genérica o suficiente para que possa interpretar  diferentes tipos de dados. 
 
-Essa propriedade é a que define a natureza do nosso *component*, aceitando apenas valores que definem a natureza dos dados no JavaScript:
+Quando uma célula é observada iremos receber, como resposta dessa ação, somente o seu valor. Levando isso em consideração podemos inferir que essa reposta define sua totalidade, citando Hegel:
+
+> A verdade é o todo. Que se não enxergamos o todo, podemos atribuir valores exagerados a verdades limitadas, prejudicando a compreensão de uma verdade geral. 
+
+
+Ponderando essa afirmação deduzimos que o todo da célula é o seu valor.
+
+
+> Logo é fundamental enxergar o todo. Mas nunca temos certeza de que estamos trabalhando com a totalidade correta. 
+
+Correlacionando a estrutura com os tipos de dados do JavaScript podemos estabelecer sua primeira propriedade, sendo ela intríseca, nomeando-a como: `type`.
+
+Essa propriedade define a essência do nosso *component*, aceitando apenas valores que definem os tipos de dados no JavaScript:
 
 - type: String, Number, Date, Boolean
+
+
+
+
+
+# Até aqui
 
 
 - value: valor definido para a célular
