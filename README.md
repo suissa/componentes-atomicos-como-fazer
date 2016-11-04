@@ -85,11 +85,31 @@ Quando uma célula é observada iremos receber, como resposta dessa ação, some
 
 > A verdade é o todo. Que se não enxergamos o todo, podemos atribuir valores exagerados a verdades limitadas, prejudicando a compreensão de uma verdade geral. 
 
+Valendo-se dessa afirmação, podemos correlacionar o **conceito de todo** com o valor da célula, sendo essa a nossa verdade. Porém devemos nos questionar se o que foi observado é realmente a totalidade da célula. Tendo em vista que o todo observado pode ser superficial, nunca teremos a certeza de se trabalhar com a totalidade correta.
 
-Ponderando essa afirmação deduzimos que o todo da célula é o seu valor.
+Como existe uma possiblidade do todo ser superficial é nosso dever analisar esse cenário para homologarmos o nosso todo. Para isso devemos investigar a natureza da célula testando se existem propriedades ocultas à nossa observação.
+
+Devemos então investigar se esse valor pode ser convertido em outras formas, Para comprovarmos se existe essa possibilidade de conversão iremos aplicar testes nesse valor. Podemos trabalhar com o valor `0`
 
 
-> Logo é fundamental enxergar o todo. Mas nunca temos certeza de que estamos trabalhando com a totalidade correta. 
+```js
+> 0 + 1
+1
+> "0" + 1
+'01'
+> if (0 + 1) console.log('Boolean')
+Boolean
+undefined
+> if (0 + 0) console.log('Boolean')
+undefined
+> 
+```
+
+Analisando o resultado dos nossos testes podemos concluir que o mesmo valor `0` foi convertido em 3 formas diferentes, as quais resultam em um valor completamente diferente do observado.
+
+
+
+o valor da célula possui alguma verdade, propriedade, oculta que não foi previamente observada, 
 
 Correlacionando a estrutura com os tipos de dados do JavaScript podemos estabelecer sua primeira propriedade, sendo ela intríseca, nomeando-a como: `type`.
 
@@ -104,6 +124,9 @@ Essa propriedade define a essência do nosso *component*, aceitando apenas valor
 # Até aqui
 
 
+## Estrutua
+
+- type: String, Number, Date, Boolean
 - value: valor definido para a célular
 - mask: (opcional) máscara para representação do valor
 - events: (opcional) click // basicamente qualquer evento do JS
