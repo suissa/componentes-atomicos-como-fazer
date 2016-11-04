@@ -35,4 +35,5 @@ Acredito que com uma propriedade com a sua posição na fila, vamos chamar inici
 - columnOrder
 - lineOrder
 
+![](https://memecrunch.com/meme/3ARWO/joao-kleber/image.png)
 
