@@ -1,6 +1,5 @@
 # Componentes Atômicos - Como criar
 
-
 ![Definição de componente](https://github.com/suissa/componentes-atomicos-como-fazer/blob/master/imgs/component.png?raw=true)
 
 
@@ -11,6 +10,9 @@
 Citei essa parte do texto para exemplificar semanticamente que um *component* é uma parte de um todo, porém ele sozinho também pode ser independente, assim como são as "cores da luz". **Isso será deveras importante para o embasamento desse estudo.**
 
 Como eu nunca fiz nada do gênero, ainda mais utilizando *components*, vi uma brecha em um *freela* que estou fazendo e **agora é a hora de aprender isso!**
+
+## Embasamento Teórico
+
 
 Além de aprender mais sobre JavaScript quero ver se consigo aplicar um pouco da dialética, algo que conheci há pouco tempo e achei fenomenal. Caso você não saiba o que é, vamos agradecer a [Wikipedia](https://pt.wikipedia.org/wiki/Dial%C3%A9tica) por mais essa graça alcançada.
 

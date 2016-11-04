@@ -1,0 +1,27 @@
+{
+  "name": "atomic-components-how-to-do",
+  "version": "1.0.0",
+  "description": "Coisa de doido",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suissa/componentes-atomicos-como-fazer.git"
+  },
+  "keywords": [
+    "atomic",
+    "desidn",
+    "suissa"
+  ],
+  "author": "Suissa",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/suissa/componentes-atomicos-como-fazer/issues"
+  },
+  "homepage": "https://github.com/suissa/componentes-atomicos-como-fazer#readme",
+  "dependencies": {
+    "angular": "^1.5.8"
+  }
+}
