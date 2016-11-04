@@ -11,6 +11,8 @@ Citei essa parte do texto para exemplificar semanticamente que um *component* é
 
 Como eu nunca fiz nada do gênero, ainda mais utilizando *components*, vi uma brecha em um *freela* que estou fazendo e **agora é a hora de aprender isso!**
 
+***ps: Esse material é apenas para meu treino pessoal, se possível tentem refutar essas informações.***
+
 ## Embasamento Teórico
 
 
