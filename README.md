@@ -77,3 +77,5 @@ Acredito que com uma propriedade que defina sua posição na fila:
 Levando essas informações em consideração deixaremos essa responsabilidade para seu *component* pai/linha.** 
 
 Limitando esse escopo estaremos de acordo com o [Princípio da Responsabilidade Única](https://en.wikipedia.org/wiki/Single_responsibility_principle), pois esse *component* não deverá modificar nenhum outro.
+
+![](https://cdn.meme.am/instances/49125506.jpg)
