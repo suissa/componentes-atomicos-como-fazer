@@ -7,6 +7,7 @@
 
 > ***light passed through a prism breaks up into its component colors***
 
+
 Citei essa parte do texto para exemplificar semanticamente que um *component* é uma parte de um todo, porém ele sozinho também pode ser independente, assim como são as "cores da luz". **Isso será deveras importante para o embasamento desse estudo.**
 
 Como eu nunca fiz nada do gênero, ainda mais utilizando *components*, vi uma brecha em um *freela* que estou fazendo e **agora é a hora de aprender isso!**
@@ -23,6 +24,7 @@ Agora será a segunda vez que irei utilizar o [component](https://docs.angularjs
 
 > Não estou criando isso para dizer que é o jeito **CORRETO**, estou criando apenas porque eu quero aprender melhor essa feature. Blz?
 
+**Irei começar questionando-o:**
 
 > Como você componentizaria/atomizaria um(a) *data-grid/table*? 
 
@@ -44,7 +46,7 @@ Agora em posse do todo, iremos definir suas estruturas internas.
 > 
 > - É uma agregação de células.  
 
-Logo toda linha/coluna é formada por uma ou mais células, as quais formam a natureza intrísceca da tabela.
+**Logo toda linha/coluna é formada por uma ou mais células, as quais formam a natureza intrísceca da tabela.**
 
 Sabendo disso, podemos inferir que: 
 
