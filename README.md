@@ -25,11 +25,25 @@ Logo a primeira pergunta que vêm à mente:
 
 > Como componentizar/atomizar esse data-grid/table? 
 
-O mais normal seria ter os valores por linha e a partir dela gerar a tabela, mas eu não quero fazer assim. Quero atomizar um pouco mais.
+O mais normal seria ter os valores por linha e a partir dela gerar a tabela, mas eu não quero fazer assim. Agora vamos pensar comigo:
 
-Então vamos iniciar pensando na sua menor parte: **a célula**.
+> O que é uma tabela?
+> 
+> - É uma agregação de linhas e colunas.
+> 
+> O que é uma linha ou colua?
+> 
+> - É uma agregação de células.  
 
-Sabendo disso precisamos definir quais as propriedades que esse *component* pode receber:
+Baseando-se nessas premissas iremos iniciar pela célula sem conhecer a estrutura dos seus components pais.
+
+> Você está louco Suissa?
+
+> - Ainda não, apenas estou baseando-me no Atomic Design onde o átomo é a "menor parte indivisível e independente".
+
+Então sim a ideia é que esse component possa ser **reusado** em qualquer *view* independentemente de onde será colocado.
+
+Primeira coisa que devemos pensar é na sua estrutura, podemos iniciar com essa propriedades:
 
 - type: String, Number, Date, Boolean
 - value: valor definido para a célular
