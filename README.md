@@ -23,11 +23,10 @@ Agora será a segunda vez que irei utilizar o [component](https://docs.angularjs
 
 > Não estou criando isso para dizer que é o jeito **CORRETO**, estou criando apenas porque eu quero aprender melhor essa feature. Blz?
 
-Logo, a primeira pergunta que vêm à mente é:
 
-> Como você componentizaria/atomizaria esse *data-grid/table*? 
+> Como você componentizaria/atomizaria um(a) *data-grid/table*? 
 
-O mais comum seria montar a tabela com seus cabeçalhos para depois ir para as linhas, sendo essas formadas por uma ou mais células. Dessa forma estaremos indo do macro para o micro, assim como disse Hegel:
+A solução mais comum é montar a tabela com seus cabeçalhos/colunas para depois criar uma ou mais linhas, sendo essas formadas por uma ou mais células. Dessa forma estaremos indo do macro para o micro, assim como disse Hegel:
 
 > A verdade é o todo. Que se não enxergamos o todo, podemos atribuir valores exagerados a verdades limitadas, prejudicando a compreensão de uma verdade geral. Essa visão é sempre provisória, nunca alcança uma etapa definitiva e acabada, caso contrário a dialética estaria negando a si própria.
 
