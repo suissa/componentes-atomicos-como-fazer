@@ -86,11 +86,11 @@ Quando uma célula é observada iremos receber, como resposta dessa ação, some
 
 > A verdade é o todo. Que se não enxergamos o todo, podemos atribuir valores exagerados a verdades limitadas, prejudicando a compreensão de uma verdade geral. 
 
-Valendo-se dessa afirmação, podemos correlacionar o **conceito de todo** com o valor da célula, sendo essa a nossa verdade. Porém devemos nos questionar se o que foi observado é realmente a totalidade da célula. Tendo em vista que o todo observado pode ser superficial, nunca teremos a certeza de se trabalhar com a totalidade correta.
+Valendo-se dessa afirmação, podemos correlacionar o **conceito de todo** com o valor da célula, sendo essa a nossa verdade. Porém devemos nos questionar se o que foi observado é realmente a totalidade da célula, tendo em vista que o todo observado pode ser superficial, nunca teremos a certeza de se trabalhar com a totalidade correta.
 
 Como existe uma possiblidade do todo ser superficial é nosso dever analisar esse cenário para homologarmos o nosso todo. Para isso devemos investigar a natureza da célula testando se existem propriedades ocultas à nossa observação.
 
-Devemos então investigar se esse valor pode ser convertido em outras formas, Para comprovarmos se existe essa possibilidade de conversão iremos aplicar testes nesse valor. Podemos trabalhar com o valor `0`
+Nessa investigação poderemos constatar se esse valor pode ser convertido em outras formas. Para comprovarmos se existe essa possibilidade de conversão iremos aplicar testes nesse valor, atribuiremos a esse valor o `0`.
 
 
 ```js
@@ -106,12 +106,12 @@ undefined
 > 
 ```
 
-Analisando o resultado dos nossos testes podemos concluir que o mesmo valor `0` foi convertido em 3 formas diferentes, as quais resultam em um valor completamente diferente do observado.
+Analisando o resultado dos nossos testes podemos concluir que o mesmo valor `0` foi convertido em 3 formas diferentes, as quais resultam em valores completamente diferentes do observado originalmente.
 
 
-Correlacionando esses resultados com os tipos de dados do JavaScript podemos estabelecer sua primeira propriedade, sendo ela intríseca, nomeando-a como: `type`.
+Correlacionando esses resultados com os tipos de dados do JavaScript podemos estabelecer sua primeira propriedade, intríseca, nomeando-a como: `type`.
 
-Essa propriedade define a essência do nosso *component*, aceitando apenas valores que definem os tipos de dados no JavaScript, para esse *component* iremos aceitar os seguintes:
+Essa propriedade define a essência do nosso *component*, que aceita apenas valores que definem os tipos de dados no JavaScript, para essa propriedade o *component* irá aceitar os seguintes valores:
 
 - type: String, Number, Date, Boolean
 
