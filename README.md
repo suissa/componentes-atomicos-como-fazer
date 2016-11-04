@@ -28,9 +28,9 @@ Agora será a segunda vez que irei utilizar o [component](https://docs.angularjs
 
 > Como você componentizaria/atomizaria um(a) *data-grid/table*? 
 
-A solução mais comum é montar a tabela com seus cabeçalhos/colunas para depois criar uma ou mais linhas, sendo essas formadas por uma ou mais células. Dessa forma estaremos indo do macro para o micro, assim como disse Hegel:
+A solução mais comum é montar a tabela com seus cabeçalhos/colunas para depois criar uma ou mais linhas, sendo essas formadas por uma ou mais células. Esse procedimento remete ao que disse Hegel:
 
-> A verdade é o todo. Que se não enxergamos o todo, podemos atribuir valores exagerados a verdades limitadas, prejudicando a compreensão de uma verdade geral. Essa visão é sempre provisória, nunca alcança uma etapa definitiva e acabada, caso contrário a dialética estaria negando a si própria.
+> **A verdade é o todo. Que se não enxergamos o todo, podemos atribuir valores exagerados a verdades limitadas, prejudicando a compreensão de uma verdade geral. Essa visão é sempre provisória, nunca alcança uma etapa definitiva e acabada, caso contrário a dialética estaria negando a si própria.**
 
 Logo é natural começar do macro para o micro pois assim temos, ou pensamos que temos, a visualização completa do nosso problema. Essa noção fica ainda mais clara quando observamos a seguinte imagem:
 
@@ -62,7 +62,7 @@ Sabendo-se que a célula é a essência da tabela, ou seja, é uma característi
 
 Abrirei um adendo aqui para incrementar o conceito da Dialética:
 
-> O método dialético nos incita a revermos o passado, à luz do que está acontecendo no presente, ele questiona o presente em nome do futuro, o que está sendo em nome do que “ainda não é”. É por isso que o argentino Carlos Astrada define a dialética como “semente de dragões”, a qual alimenta dragões que talvez causem tumulto, mas não uma baderna inconsequente.
+> **O método dialético nos incita a revermos o passado, à luz do que está acontecendo no presente, ele questiona o presente em nome do futuro, o que está sendo em nome do que “ainda não é”. É por isso que o argentino Carlos Astrada define a dialética como “semente de dragões”, a qual alimenta dragões que talvez causem tumulto, mas não uma baderna inconsequente.**
 
 *fonte: [https://pt.wikipedia.org/wiki/Dial%C3%A9tica](https://pt.wikipedia.org/wiki/Dial%C3%A9tica)*
 
@@ -84,7 +84,7 @@ A primeira coisa que devemos criar é a estrutura da célula, sendo imprescindí
 
 Quando uma célula é observada iremos receber, como resposta dessa ação, somente o seu valor. Levando isso em consideração podemos inferir que essa reposta define sua totalidade, citando Hegel:
 
-> A verdade é o todo. Que se não enxergamos o todo, podemos atribuir valores exagerados a verdades limitadas, prejudicando a compreensão de uma verdade geral. 
+> **A verdade é o todo. Que se não enxergamos o todo, podemos atribuir valores exagerados a verdades limitadas, prejudicando a compreensão de uma verdade geral.**
 
 Valendo-se dessa afirmação, podemos correlacionar o **conceito de todo** com o valor da célula, sendo essa a nossa verdade. Porém devemos nos questionar se o que foi observado é realmente a totalidade da célula, tendo em vista que o todo observado pode ser superficial, nunca teremos a certeza de se trabalhar com a totalidade correta.
 
