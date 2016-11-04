@@ -31,11 +31,11 @@ O mais normal seria ter os valores por linha e a partir dela gerar a tabela, mas
 > 
 > - É uma agregação de linhas e colunas.
 > 
-> O que é uma linha ou colua?
+> O que é uma linha ou coluna?
 > 
 > - É uma agregação de células.  
 
-Baseando-se nessas premissas iremos iniciar pela célula sem conhecer a estrutura dos seus components pais.
+**Baseando-se nessas premissas iremos iniciar nosso estudo pela célula, sem conhecer a estrutura dos seus components pais.**
 
 > Você está louco Suissa?
 
