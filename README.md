@@ -9,11 +9,11 @@ Citei essa parte do texto para exemplificar semanticamente que um *component* é
 
 Como eu nunca fiz nada do gênero, ainda mais utilizando *components*, vi uma brecha em um *freela* que estou fazendo e **agora é a hora de aprender isso!**
 
-Basicamente preciso essa tela isso:
+Basicamente preciso implementar essa tela:
 
 ![](https://github.com/suissa/componentes-atomicos-como-fazer/blob/master/imgs/oquefazer.png?raw=true)
 
-### E não e basearei em nenhum outro, quero ir construindo na medida que vou pensando, esse component servirá para eu treinar a utilização do *component* que saiu no Angular 1.5
+### E não me basearei em nenhum outro, quero ir construindo na medida que vou pensando, esse trabalho servirá para eu treinar a utilização do *component, que saiu no Angular 1.5
 
 A primeira vez que usei-o foi em uma [prova de conceito que irei utilizar no Workshop de Socket.io](https://github.com/Webschool-io/Workshop-AO-VIVO-Socket.io/blob/master/examples/components-events/app.js)
 
@@ -23,9 +23,11 @@ Agora será a segunda vez que irei utilizar o [component](https://docs.angularjs
 
 Logo a primeira pergunta que vêm à mente:
 
-> Como componentizar/atomizar esse data-grid/table? 
+> Como componentizar/atomizar esse *data-grid/table*? 
 
-O mais normal seria ter os valores por linha e a partir dela gerar a tabela, mas eu não quero fazer assim. Agora vamos pensar comigo:
+O mais comum seria ter os valores por linha e a partir dela gerar a tabela, mas **eu não quero fazer assim**. 
+
+Pense comigo:
 
 > O que é uma tabela?
 > 
@@ -39,7 +41,7 @@ O mais normal seria ter os valores por linha e a partir dela gerar a tabela, mas
 
 > **Você está louco Suissa?**
 
-> \- Ainda não, apenas estou baseando-me no Atomic Design onde o átomo é a "menor parte indivisível e independente".
+> \- Ainda não, apenas estou baseando-me no [Atomic Design]() onde o átomo é a "menor parte indivisível e independente".
 
 Então sim a ideia é que esse component possa ser **reusado** em qualquer *view* independentemente de onde será colocado.
 
