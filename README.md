@@ -3,17 +3,26 @@
 
 ![](https://github.com/suissa/componentes-atomicos-como-fazer/blob/master/imgs/component.png?raw=true)
 
+
+
 > ***light passed through a prism breaks up into its component colors***
 
 Citei essa parte do texto para exemplificar semanticamente que um *component* é uma parte de um todo, porém ele sozinho também pode ser independente, assim como são as "cores da luz". **Isso será deveras importante para o embasamento desse estudo.**
 
 Como eu nunca fiz nada do gênero, ainda mais utilizando *components*, vi uma brecha em um *freela* que estou fazendo e **agora é a hora de aprender isso!**
 
-Basicamente preciso implementar essa tela:
+Além de aprender mais sobre JavaScript quero ver se consigo aplicar um pouco da dialética, algo que conheci há pouco tempo e achei fenomenal. Caso você não saiba o que é, vamos agradecer a [Wikipedia](https://pt.wikipedia.org/wiki/Dial%C3%A9tica) por mais essa graça alcançada.
+
+> Dialética (AO 1945: dialéctica) (do grego διαλεκτική (τέχνη), pelo latim dialectĭca ou dialectĭce) é um método de diálogo cujo foco é a contraposição e contradição de ideias que levam a outras ideias e que tem sido um tema central na filosofia ocidental e oriental desde os tempos antigos. A tradução literal de dialética significa "caminho entre as ideias".
+> 
+> ...
+> 
+> O método dialético nos incita a revermos o passado, à luz do que está acontecendo no presente, ele questiona o presente em nome do futuro, o que está sendo em nome do que “ainda não é”. É por isso que o argentino Carlos Astrada define a dialética como “semente de dragões”, a qual alimenta dragões que talvez causem tumulto, mas não uma baderna inconsequente.
+Voltando para a área das Exatas, preciso implementar essa tela:
 
 ![](https://github.com/suissa/componentes-atomicos-como-fazer/blob/master/imgs/oquefazer.png?raw=true)
 
-### E não me basearei em nenhum outro, quero ir construindo na medida que vou pensando, esse trabalho servirá para eu treinar a utilização do *component, que saiu no Angular 1.5
+### E não me basearei em nenhum outro, quero ir construindo na medida que vou pensando, esse trabalho servirá para eu treinar a utilização do *component, que saiu no Angular 1.5.
 
 A primeira vez que usei-o foi em uma [prova de conceito, que irei utilizar no Workshop de Socket.io](https://github.com/Webschool-io/Workshop-AO-VIVO-Socket.io/blob/master/examples/components-events/app.js)
 
@@ -79,3 +88,9 @@ Levando essas informações em consideração deixaremos essa responsabilidade p
 Limitando esse escopo estaremos de acordo com o [Princípio da Responsabilidade Única](https://en.wikipedia.org/wiki/Single_responsibility_principle), pois esse *component* não deverá modificar nenhum outro.
 
 ![](https://cdn.meme.am/instances/49125506.jpg)
+
+Podemos iniciar pelo seu *template*, que é a marcação HTML a ser utilizada pelo *component*.
+
+```html
+<span data="cell"></span>
+```
