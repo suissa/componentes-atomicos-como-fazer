@@ -39,7 +39,7 @@ O mais normal seria ter os valores por linha e a partir dela gerar a tabela, mas
 
 > **Você está louco Suissa?**
 
-> - Ainda não, apenas estou baseando-me no Atomic Design onde o átomo é a "menor parte indivisível e independente".
+> \- Ainda não, apenas estou baseando-me no Atomic Design onde o átomo é a "menor parte indivisível e independente".
 
 Então sim a ideia é que esse component possa ser **reusado** em qualquer *view* independentemente de onde será colocado.
 
@@ -55,7 +55,7 @@ Aí você deve pensar:
 
 > **Ué não é para uma tabela? E se eu quiser ordenar ela?**
 
-> - **Ótima pergunta!** Por isso precisamos pensar juntos.
+> \- **Ótima pergunta!** Por isso precisamos pensar juntos.
 
 Sabemos que a ordenação pode ser tanto pela linha como pela coluna, então como representar isso?
 
@@ -68,6 +68,6 @@ Acredito que com uma propriedade com a sua posição na fila:
 
 > Como é que um component desses vai saber qual é sua posição sendo que ele nao sabe onde está inserido, ele conhece apenas a si mesmo.
 
-> - **Tudo bem então, deixaremos isso para o seu component pai(linha) lidar.**
+> \- **Tudo bem então, deixaremos isso para o seu component pai(linha) lidar.**
 
 Então vamos iniciar com esse escopo e caso seja necessário mudamos futuramente.
