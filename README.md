@@ -15,7 +15,7 @@ Basicamente preciso implementar essa tela:
 
 ### E não me basearei em nenhum outro, quero ir construindo na medida que vou pensando, esse trabalho servirá para eu treinar a utilização do *component, que saiu no Angular 1.5
 
-A primeira vez que usei-o foi em uma [prova de conceito que irei utilizar no Workshop de Socket.io](https://github.com/Webschool-io/Workshop-AO-VIVO-Socket.io/blob/master/examples/components-events/app.js)
+A primeira vez que usei-o foi em uma [prova de conceito, que irei utilizar no Workshop de Socket.io](https://github.com/Webschool-io/Workshop-AO-VIVO-Socket.io/blob/master/examples/components-events/app.js)
 
 Agora será a segunda vez que irei utilizar o [component](https://docs.angularjs.org/guide/component) do Angular 1, logo, muito provavelmente eu faça *algumas* merdas, espero que vocês ajudem-me a perceber e corrigir.
 
@@ -61,15 +61,19 @@ Aí você deve pensar:
 
 Sabemos que a ordenação pode ser tanto pela linha como pela coluna, então como representar isso?
 
-Acredito que com uma propriedade com a sua posição na fila:
+Acredito que com uma propriedade que defina sua posição na fila:
 
 - columnOrder
 - lineOrder
 
 ![](https://memecrunch.com/meme/3ARWO/joao-kleber/image.png)
 
-> Como é que um component desses vai saber qual é sua posição sendo que ele nao sabe onde está inserido, ele conhece apenas a si mesmo.
+> Mas e agora como seria implementada essa ordenação?
 
-> \- **Tudo bem então, deixaremos isso para o seu component pai(linha) lidar.**
+> \- Uma coisa eu lhe digo: não será nesse *component*.
 
-Então vamos iniciar com esse escopo e caso seja necessário mudamos futuramente.
+> \- Como é que ele irá saber qual é sua posição, sendo que ele não sabe nem onde está inserido? **Como disse Sócrates: "Conhece-te a ti mesmo".**
+
+Levando essas informações em consideração deixaremos essa responsabilidade para seu *component* pai/linha.** 
+
+Limitando esse escopo estaremos de acordo com o [Princípio da Responsabilidade Única](https://en.wikipedia.org/wiki/Single_responsibility_principle), pois esse *component* não deverá modificar nenhum outro.
