@@ -84,7 +84,7 @@ Minha ideia é que esse *component* possa ser **reusado** em qualquer *view* ind
 
 A primeira coisa que devemos criar é a estrutura da célula, sendo imprescindível que ela seja genérica o suficiente para que possa interpretar  diferentes tipos de dados. 
 
-Quando uma célula é observada iremos receber, como resposta dessa ação, somente o seu valor. Levando isso em consideração podemos inferir que essa reposta define sua totalidade, citando Hegel:
+Quando uma célula é observada iremos receber, como resposta dessa ação, somente o seu valor. Levando isso em consideração podemos inferir que essa resposta define sua totalidade, citando Hegel:
 
 > **A verdade é o todo. Que se não enxergamos o todo, podemos atribuir valores exagerados a verdades limitadas, prejudicando a compreensão de uma verdade geral.**
 
