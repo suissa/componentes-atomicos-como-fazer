@@ -13,6 +13,13 @@ Como eu nunca fiz nada do gênero, ainda mais utilizando *components*, vi uma br
 
 ***ps: Esse material é apenas para meu treino pessoal, se possível tentem refutar essas informações.***
 
+
+### CUIDADO CONTÉM DIALÉTICA
+
+![](http://2.bp.blogspot.com/-2Z33x-W8hHQ/VOvS5ZeTRdI/AAAAAAAABD4/jWKrtohPnQk/s1600/her-y%C4%B1l-kas%C4%B1m-ay%C4%B1n%C4%B1n-%C3%BC%C3%A7%C3%BCn_4eb24f6a662b8-p.gif)
+
+#### Caso você esteja procurando um conteúdo direto sobre esse assunto aguarde eu finalizar esse.
+
 ## Embasamento Teórico
 
 
