@@ -61,7 +61,7 @@ Agora em posse do todo, iremos definir suas estruturas internas.
 
 Sabendo disso, podemos inferir que: 
 
-> Para que uma tabela exista ela precisa ser formada por uma ou mais linhas.
+> Para que uma tabela exista ela precisa ser formada por uma ou mais linhas **e** uma ou mais colunas.
 > 
 > Para que uma linha exista ela precisa ser formada por uma ou mais células.
 > 
